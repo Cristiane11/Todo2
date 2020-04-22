@@ -47,3 +47,7 @@ function Conditional(props) {
 }
 
 export default Conditional
+
+#tenaty explanation
+ // condition ? statement if true :[the colon means otherwise] statement if false
+    props.isLoading === true ? <h1>Loading...</h1> : <h1>Some cool stuff about conditiona
